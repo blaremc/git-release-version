@@ -1,33 +1,50 @@
-# Git flow
-Scripts for release products and update version
+# Git quick flow
+Scripts for quick release products and update version
+
+##Install
+
+npm install -g git-qflow
 
 ###Usage
-node sln.js <repository> [major|minor|hotfix] 
+qflow <repository> [major|minor|hotfix] 
 
-node version.js <repository> [major|minor|hotfix] 
+qver <repository> [major|minor|hotfix] 
 
 ###Steps
-##### node sln.js 
-For minor and major
+##### qflow
+For minor and major version
 
-1. Pulling new updates from master and develop
-2. Creating release branch
-3. Incrementing version
-4. Creating tag
-5. Merging branches
+1. Pull new updates from master and develop (Hard reset from repositories)
+2. Create release branch
+3. Checkout to branch
+4. Increment version
+5. Merge to master
+4. Create tag
+5. Merge to develop
 6. Pushing
 
 For hotfixes
-...developing...
 
-##### node version.js 
-1. Pulling new updates from master and develop
-2. Incrementing version
-3. Pushing
+1. Pull new updates from master and develop (Hard reset from repositories)
+2. Checkout to hotfix branch 
+3. Increment version if is need
+4. Merge to master
+5. Create tag
+6. Merge to develop
+7. Pushing
+
+##### qver
+1. Pull new updates from master and develop (Hard reset from repositories)
+2. Increment version
+3. Push
 
 ### Examples
-node sln.js C:\Sites\calculator
+qflow C:\Sites\calculator
 
-node sln.js git@github.com:user/calculator  hotfix
+qflow git@github.com:user/calculator  hotfix
 
-node sln.js https://github.com/calculator.git  major
+qflow https://github.com/calculator.git  major
+
+qver https://github.com/calculator.git  minor
+
+qver /var/repository
