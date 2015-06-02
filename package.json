@@ -1,6 +1,6 @@
 {
-  "name": "git-qflow",
-  "version": "1.1.0",
+  "name": "qflow",
+  "version": "1.0.0",
   "description": "Package for release new version",
   "dependencies": {
     "fs-extra": "^0.18.4",
@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:blaremc/git-release-version.git"
+    "url": "git@github.com:blaremc/qflow.git"
   },
   "preferGlobal": true,
   "bin": {
