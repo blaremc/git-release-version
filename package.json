@@ -8,5 +8,9 @@
     "jsonfile": "^2.0.1"
   },
   "author": "Mikhailenko Oleg <blaremc@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:blaremc/git-release-version.git"
+  }
 }
