@@ -1,9 +1,9 @@
-# Git quick flow
+# Quick flow for git
 Scripts for quick release products and update version
 
 ##Install
 
-npm install -g git-qflow
+npm install -g qflow
 
 ###Usage
 qflow <repository> [major|minor|hotfix] 
