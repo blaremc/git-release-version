@@ -6,9 +6,9 @@ Scripts for quick release products and update version
 npm install -g qflow
 
 ###Usage
-qflow <repository> [major|minor|hotfix] 
+qflow repository [major|minor|hotfix] 
 
-qver <repository> [major|minor|hotfix] 
+qver repository [major|minor|hotfix] 
 
 ###Steps
 ##### qflow
