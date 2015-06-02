@@ -1,0 +1,12 @@
+{
+  "name": "deploy",
+  "version": "1.0.0",
+  "description": "Package for release new version",
+  "main": "flow.js",
+  "dependencies": {
+    "fs-extra": "^0.18.4",
+    "jsonfile": "^2.0.1"
+  },
+  "author": "Mihaylenko Oleg <blaremc@gmail.com>",
+  "license": "MIT"
+}
