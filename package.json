@@ -1,6 +1,6 @@
 {
-  "name": "qflow",
-  "version": "1.0.0",
+  "name": "git-qflow",
+  "version": "1.2.0",
   "description": "Package for release new version",
   "dependencies": {
     "fs-extra": "^0.18.4",

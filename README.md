@@ -3,7 +3,7 @@ Scripts for quick release products and update version
 
 ##Install
 
-npm install -g qflow
+npm install -g git-qflow
 
 ###Usage
 qflow repository [major|minor|hotfix] 
