@@ -2,4 +2,4 @@
 
 var lib = require('../lib/flow.js');
 process.title = 'qflow';
-lib.flow(process.argv[2], process.argv[3]);
+lib.flow(process.argv[2], process.argv[3], process.argv[4]);
